@@ -111,7 +111,7 @@ export const StoryCardClient = () => {
             >
                 <div className='absolute inset-0 bg-black opacity-70'></div>
                 <div
-                    className='relative w-full h-[95vh] m-3 flex items-center justify-center bg-cover bg-center rounded-lg'
+                    className='relative w-full h-[90vh] m-3 flex items-center justify-center bg-cover bg-center rounded-lg'
                     style={ {
                         backgroundImage: `url(${stories[currentStoryIndex].imageUrl})`,
                         borderRadius: '10px',
