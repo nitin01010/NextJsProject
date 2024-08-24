@@ -5,6 +5,7 @@ import 'react-toastify/dist/ReactToastify.css';
 import Sidebar from "./pages/Sidebar";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+import { Analytics } from "@vercel/analytics/react"
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -19,6 +20,7 @@ export default function RootLayout({ children }) {
       <body className={ inter.className }>
         <Header />
         { children }
+        <Analytics />
         <Sidebar />
         <Footer />
         <ToastContainer
